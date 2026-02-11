@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-02-10T07:19:24.328301Z",
+  "device_model_id": "143a7b0f-b4b5-4f69-ab22-77b3f8e06d57",
+  "id": "4f877b78-15c8-4f1a-a66d-2916506fe4b8",
+  "is_default": false,
+  "spec": {
+    "meta": {
+      "name": "ROBIN-M Unidirectional",
+      "vendor": "Weptech"
+    },
+    "uplink": [
+      {
+        "id": 0,
+        "crypto": 0,
+        "payload": [
+          {
+            "name": "temperature",
+            "component": "16bitTemperature"
+          },
+          {
+            "name": "humidity",
+            "component": "16bitHumidity"
+          }
+        ]
+      }
+    ],
+    "typeEui": "70B3D59CD0000094",
+    "version": "1.0",
+    "component": {
+      "16bitHumidity": {
+        "func": "$/10",
+        "size": 16,
+        "type": "int",
+        "unit": "%",
+        "littleEndian": false
+      },
+      "16bitTemperature": {
+        "func": "$/10",
+        "size": 16,
+        "type": "int",
+        "unit": "°C",
+        "littleEndian": false
+      }
+    }
+  },
+  "type_eui": "70B3D59CD0000094",
+  "updated_at": "2026-02-11T12:53:26.547354Z",
+  "version": "Robin-M"
+}
